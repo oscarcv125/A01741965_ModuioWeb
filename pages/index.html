@@ -34,9 +34,9 @@
   </nav>
   
   <div class="container mt-5">
-    <p> Hola Mundo Pollo</p>
+    <p>Hola Mundo Pollo</p>
     <h2>Login</h2>
-    <form action="#" method="post">
+    <form id="loginForm">
       <div class="mb-3">
         <label for="username" class="form-label">Usuario</label>
         <input type="text" class="form-control" id="username" placeholder="Introduce tu usuario" required>
@@ -45,11 +45,13 @@
         <label for="password" class="form-label">Contraseña</label>
         <input type="password" class="form-control" id="password" placeholder="Introduce tu contraseña" required>
       </div>
-      <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+      <button type="submit" class="btn btn-primary" id="loginButton">Iniciar sesión</button>
     </form>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="scripts.js"></script>
 </body>
 </html>
